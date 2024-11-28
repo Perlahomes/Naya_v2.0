@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5e7774;
+    color: #040404;
+}
+header {
+    background-color: #5b7473;
+    color: #9c9a7e;
+    padding: 20px;
+    text-align: center;
+}
+.header img {
+float: left;
+ width: 120px;
+height: 100px;
+background: #555;
+}
+
+section {
+    padding: 20px;
+}
+h2 {
+    color: #0c0c0c;
+    text-align: center;
+}
+.instructions {
+    color: #080808;
+    background-color: #acbcb4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.thera {
+    color: #080808;
+    background-color: #c3b183;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+}
+.thera img {
+    max-width: 100%;
+    max height: 100%;
+    margin-top: 20px;
+}
+.instructions img {
+    max-width: 300px;
+    max height: 300px;
+    margin-top: 20px;
+    border: 15px solid #5b7473
+}
+.instructions h3 {
+    margin-top: 0;
+    text-align: center;
+}
+.location img {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+.map {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding-bottom: 10px;
+}
+footer {
+    background-color: #5b7473;
+    color: #9c9a7e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.key-lock img {
+    width: auto;
+    height: auto;
+    margin-top: 22px;
+}
+.Numbers{
+    
+    color: #080808;
+    background-color: #c3b183;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.container {
+text-align: center;
+}
+#wifi{
+   
+    max-width: 200px;
+    max height: 200px;
+    margin-top: 20px;
+    margin-left: 50px
+    
+}
+
+.thumbnail {
+width: 150px;
+height: auto;
+transition: transform 0.3s ease; /* Smooth transition effect */
+cursor: pointer; /* Indicate that the image is clickable */
+}
+
+.enlarged {
+transform: scale(2); /* Enlarge image to 1.5x its size */
+z-index: 1000;
+position: relative;
+
+}
